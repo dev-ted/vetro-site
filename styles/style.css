@@ -880,6 +880,8 @@ swiper-pagination-bullets >  span{
         
 
         backface-visibility: hidden;
+         /* add webkit */
+          -webkit-backface-visibility: hidden;
 }
 
 .card__back,
