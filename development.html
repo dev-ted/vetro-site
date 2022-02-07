@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script
+      rel="preconnect"
+      src="https://unpkg.com/swiper@8/swiper-bundle.min.js"
+    ></script>
+
+    <title>Development</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="/index.html">
+        <img
+          class="header__logo"
+          aria-label="logo"
+          src="./assets/logos/vetro_logo.png"
+          alt="Vetro Media Logo"
+        />
+      </a>
+    </header>
+
+    <main class="main">
+      <section class="section__hero">
+        <!-- <img class = "hero__banner" src="https://images.pexels.com/photos/4349791/pexels-photo-4349791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="hero banner"> -->
+
+        <div class="hero__content">
+          <h1>Title Animation & team picture</h1>
+        </div>
+      </section>
+
+      <section class="section__about">
+        <div>
+          <img
+            src="./assets/logos/vetro_image.png"
+            loading="lazy"
+            alt="Vetro Image Logo"
+            class="section__about__logo"
+          />
+        </div>
+        <div class="heading__content">
+          <span>We are</span>
+          <h2>Vetro Media</h2>
+
+          <a class="cta__link" href="https://www.vetro.co.za/"
+            >Visit vetro.co.za</a
+          >
+        </div>
+        <div class="cards__container">
+          <div class="card">
+            <img
+              src="./assets/icons/monitor.png"
+              loading="lazy"
+              alt="Icon"
+              class="card__icon"
+            />
+            <h3 class="card__text">Platforms</h3>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/icons/design.png"
+              loading="lazy"
+              alt="Icon"
+              class="card__icon"
+            />
+            <h3 class="card__text">Websites</h3>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/icons/ussd.png"
+              loading="lazy"
+              alt="Icon"
+              class="card__icon"
+            />
+            <h3 class="card__text">USSD</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__clients">
+        <div class="section__clients__container">
+          <h3 class="clients__heading">
+            <span class="span__text">Clients</span> we love / who love us
+          </h3>
+
+          <div id="testimonials" class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide client__slide">
+                <div class="carousel__card">
+                  <div class="open__qoutes">
+                    <img
+                      class="qoutes__image"
+                      src="./assets/icons/open_qoutes.png"
+                      alt="open quotes image"
+                    />
+                  </div>
+
+                  <div class="carousel__card__content">
+                    <div class="client__image__holder">
+                      <img
+                        class="client__image"
+                        src="https://images.pexels.com/photos/3760778/pexels-photo-3760778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="client image"
+                      />
+                    </div>
+                    <div class="client__content">
+                      <q class="client__statement"
+                        >Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Perferendis, quidem adipisci! Vitae tenetur quo
+                        distinctio illum similique temporibus laboriosam
+                        sequi.</q
+                      >
+
+                      <div class="client__details">
+                        <p class="client__name">John Doe, Ceo</p>
+                        <h3 class="client__company">Evetech Corp</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="close__qoutes">
+                    <img
+                      class="qoutes__image"
+                      src="./assets/icons/close_quotes.png"
+                      alt="close quotes image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide client__slide">
+                <div class="carousel__card">
+                  <div class="open__qoutes">
+                    <img
+                      class="qoutes__image"
+                      src="./assets/icons/open_qoutes.png"
+                      alt="open quotes image"
+                    />
+                  </div>
+
+                  <div class="carousel__card__content">
+                    <div class="client__image__holder">
+                      <img
+                        class="client__image"
+                        src="https://images.pexels.com/photos/3760778/pexels-photo-3760778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="client image"
+                      />
+                    </div>
+                    <div class="client__content">
+                      <q class="client__statement"
+                        >Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Perferendis, quidem adipisci! Vitae tenetur quo
+                        distinctio illum similique temporibus laboriosam
+                        sequi.</q
+                      >
+
+                      <div class="client__details">
+                        <p class="client__name">John Doe, Ceo</p>
+                        <h3 class="client__company">Evetech Corp</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="close__qoutes">
+                    <img
+                      class="qoutes__image"
+                      src="./assets/icons/close_quotes.png"
+                      alt="close quotes image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide client__slide">
+                <div class="carousel__card">
+                  <div class="open__qoutes">
+                    <img
+                      class="qoutes__image"
+                      src="./assets/icons/open_qoutes.png"
+                      alt="open quotes image"
+                    />
+                  </div>
+
+                  <div class="carousel__card__content">
+                    <div class="client__image__holder">
+                      <img
+                        class="client__image"
+                        src="https://images.pexels.com/photos/3760778/pexels-photo-3760778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        alt="client image"
+                      />
+                    </div>
+                    <div class="client__content">
+                      <q class="client__statement"
+                        >Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Perferendis, quidem adipisci! Vitae tenetur quo
+                        distinctio illum similique temporibus laboriosam
+                        sequi.</q
+                      >
+
+                      <div class="client__details">
+                        <p class="client__name">John Doe, Ceo</p>
+                        <h3 class="client__company">Evetech Corp</h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="close__qoutes">
+                    <img
+                      class="qoutes__image"
+                      src="./assets/icons/close_quotes.png"
+                      alt="close quotes image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__hod">
+        <div class="section__top">
+          <div class="section__hod__heading">
+            <h3 class="text__shadow">A 360<span>&#176;</span></h3>
+            <h3>Agency</h3>
+          </div>
+          <a class="cta__link cta__btn" href="https://www.vetro.co.za/"
+            >Visit vetro.co.za</a
+          >
+        </div>
+        <div class="section__bottom">
+          <div class="hod__details">
+            <div class="hod__image__holder">
+              <img
+                class="hod__image"
+                src="./assets/images/marc.png"
+                alt="Marc Development HOD"
+              />
+            </div>
+            <div class="hod__position">
+              <h3 class="hod__name">Marc</h3>
+              <h3 class="hod__position__title">Head of Development</h3>
+            </div>
+            <div class="cta">
+              <a class="cta__link" href="https://www.vetro.co.za/"
+                >Get in touch</a
+              >
+            </div>
+          </div>
+          <div class="horizontal__line"></div>
+          <div class="department__content">
+            <p>
+              Development is truly about the nitty-gritty grinding of the
+              marketing wheel. We build foundations that serve your business or
+              you audience for our campaigns to thrive on. We have experience in
+              multiple platforms and our flexible team of both dedicated
+              front/back-end and full stack developers want to build what your
+              organisation needs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section__our__work">
+        <h4 class="our__work__heading">
+          <span class="text__shadow">Our </span>work
+        </h4>
+
+        <div id="case_study" class="case__study__slider swiper">
+          <div class="swiper-wrapper">
+            <div id="slider" class="swiper-slide">
+              <div class="our__work__card">
+                <div class="card__content">
+                  <div class="card__front">
+                    <div class="client__logo">
+                      <img
+                        src="./assets/logos/kingpie.png"
+                        alt="Client Logo"
+                        class="client__logo__image"
+                      />
+                    </div>
+                    <div class="horizontal__line"></div>
+                    <h4 class="headline">Loyalty drives brand performance</h4>
+                  </div>
+                  <div class="card__back">
+                    <h5>King Pie</h5>
+                    <p class="client__work__description">
+                      As lead agency for King Pie, we wanted to create an
+                      overarching strategy to reward loyal customers and drive
+                      brand affinity. We developed a platform that combined
+                      loyalty, rewards, and community engagement for both
+                      consumers and franchisees. The backbone of the site is a
+                      relatively simple WordPress build, yet our USSD and Royal
+                      rewards are fully custom built platforms, and has driven
+                      significant growth for the brand since inception.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="our__work__card">
+                <div class="card__content">
+                  <div class="card__front">
+                    <div class="client__logo">
+                      <img
+                        src="./assets/logos/tyrelife_logo.png"
+                        alt="Client Logo"
+                        class="client__logo__image"
+                      />
+                    </div>
+                    <div class="horizontal__line"></div>
+                    <h4 class="headline">
+                      First mover into a full custom e-commerce site
+                    </h4>
+                  </div>
+                  <div class="card__back">
+                    <h5>TyreLife</h5>
+                    <p class="client__work__description">
+                      With off-road tyres being one of the latest products to
+                      have made a major move into the e-commerce space over the
+                      past two years due to high demand in the pandemic era,
+                      Tyrelife Solutions asked Vetro to build an engaging online
+                      experience for their consumers, dealers and to house their
+                      insurance programme. We created a customised platform that
+                      connects through multiple APIs and has 1000s of
+                      stakeholders involved.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="our__work__card">
+                <div class="card__content">
+                  <div class="card__front">
+                    <div class="client__logo">
+                      <img
+                        src="./assets/logos/kaelo.png"
+                        alt="Client Logo"
+                        class="client__logo__image"
+                      />
+                    </div>
+
+                    <div class="horizontal__line"></div>
+                    <h4 class="headline">
+                      Healthcare is becoming more available through cost cutting
+                      on the big things
+                    </h4>
+                  </div>
+                  <div class="card__back">
+                    <h5>Kaelo Health</h5>
+                    <p class="client__work__description">
+                      Kaelo Health is a consumer facing insurance product that
+                      was formerly only available to enterprise clients. To
+                      transition the move to the consumer offering and drive
+                      conversions, an effective conversion focused page was
+                      designed and optimised for speed and content delivery.
+                      Through an effective ad campaign, Vetro quickly reached ad
+                      optimisation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+        <section class="section__quick__facts">
+        <div id="facts" class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="quick__facts__content">
+                <q>
+                  If your vision doesn’t have a proper foundation, it won’t
+                  last.
+                </q>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quick__facts__content">
+                <q>
+                  85% of customers trust online reviews as much as personal
+                  recommendations.
+                </q>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quick__facts__content">
+                <q>
+                  Flexible, we flex our skills in a lot of way, and we are happy
+                  to contribute to your current stack or language requirements.
+                </q>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quick__facts__content">
+                <q>
+                  68% of the companies that developed a mobile-first website saw
+                  a rise in sales.
+                </q>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="quick__facts__content">
+                <q>
+                  Just a 'One-second delay' in page load could downgrade
+                  customer satisfaction.
+                </q>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="quick__facts__container"></div>
+      </section>
+
+      <section class="section__blogs">
+        <h4 class="our__work__heading">
+          <span class="text__shadow">Learn </span>from us
+        </h4>
+        <div id="case_study" class="case__study__slider swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="blog__card">
+                <div class="blog__content">
+                  <div class="blog__front">
+                    <div class="blog__image__container">
+                      <img
+                        class="blog__image"
+                        src="./assets/images/blog_image_1.png"
+                        alt="blog image"
+                      />
+                    </div>
+                    <h4 class="blog__title">
+                      The importance of USSD in FMCG campaigns
+                    </h4>
+                  </div>
+                  <div class="blog__back">
+                    <h5>Learn</h5>
+                    <p class="blurb">
+                      South Africa has a unique retail ecosystem, with its
+                      income and population diversely spread. Due to the high
+                      costs of data and limited access to modern (smart) phones,
+                      one of the ongoing challenges is for retailers to stay
+                      connected to their consumers. USSD has been around for
+                      some time, and has proven itself to be an excellent line
+                      of communication for brands to stay in touch with many
+                      South Africans at a low cost.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog__card">
+                <div class="blog__content">
+                  <div class="blog__front">
+                    <div class="blog__image__container">
+                      <img
+                        class="blog__image"
+                        src="./assets/images/blog_image_2.png"
+                        alt="blog image"
+                      />
+                    </div>
+                    <h4 class="blog__title">
+                      Full stack enables a platform to thrive
+                    </h4>
+                  </div>
+                  <div class="blog__back">
+                    <h5>Implement</h5>
+                    <p class="blurb">
+                      While WordPress has opened the door to the low-cost
+                      implementation of the modern business card for
+                      entrepreneurs and businesses, sometimes you still need to
+                      go for a custom digital solution. Full stack development
+                      is typically what we call someone who has experience in
+                      both frond-end, and back-end development. Although it is
+                      nice to have a specialism available in either of these,
+                      when considering website builds, which should integrate
+                      into a company’ s day-to-day operations, full-stack is the
+                      way to go.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog__card">
+                <div class="blog__content">
+                  <div class="blog__front">
+                    <div class="blog__image__container">
+                      <img
+                        class="blog__image"
+                        src="./assets/images/blog_image_3.png"
+                        alt="blog image"
+                      />
+                    </div>
+                    <h4 class="blog__title">
+                      How React creates a powerful platform for SEO content
+                    </h4>
+                  </div>
+                  <div class="blog__back">
+                    <h5>Achieve</h5>
+                    <p class="blurb">
+                      ‘How to be the best ranking website out there’, is one of
+                      the most searched terms in marketing nowadays. However,
+                      reaching a #1 ranking is not as straightforward as it used
+                      to be (except for branded rankings). When building a
+                      website, you need to consider multiple factors such as
+                      speed, accessibility, and quality of content. React allows
+                      us to structure content while keeping our websites
+                      flexible. With Reacts Server-Side Rendering, we can
+                      deliver better websites and content to Google’s search
+                      engine than ever before.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <section class="section__contact">
+        <h4 class="our__work__heading">
+          <span class="text__shadow">Get </span>In Touch
+        </h4>
+        <div class="form__container">
+          <form>
+            <div class="form__input__container">
+              <label for="name">Name*</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="form__input__container">
+              <label for="email">Email*</label>
+              <input type="email" name="email" id="name" />
+            </div>
+            <div class="form__input__container">
+              <label for="name">Cellphone*</label>
+              <input type="tel" name="name" id="name" />
+            </div>
+            <div class="form__input__container">
+              <label for="details">More Details*</label>
+              <textarea
+                class="textarea__input"
+                name="details"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <button name="submit" class="submit__btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <h6>Vetro Media</h6>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
