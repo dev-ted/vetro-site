@@ -995,7 +995,7 @@ swiper-pagination-bullets >  span{
 
 @media screen and (max-width:769px) {
         .section__our__work {
-                margin: 190px auto auto;
+                margin: 230px auto auto auto;
                 height: auto;
                 display: grid;
                 place-items: center;
