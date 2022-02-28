@@ -4,7 +4,7 @@ const swiper = new Swiper("#testimonials", {
   loop: false,
   centeredSlides: true,
   autoplay: {
-    delay: 3500,
+    delay: 5000,
     disableOnInteraction: false,
   },
 
@@ -26,8 +26,9 @@ const facts = new Swiper("#facts", {
   loop: false,
         centeredSlides: true,
         autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
+                delay: 6000,
+          disableOnInteraction: false,
+                
         },
 
  
