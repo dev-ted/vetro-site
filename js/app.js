@@ -1,3 +1,6 @@
+const svgleft = document.querySelector(".svg__left");
+
+
 const swiper = new Swiper("#testimonials", {
   // Optional parameters
   direction: "horizontal",
@@ -68,3 +71,18 @@ const caseStudy = new Swiper("#case_study", {
 facts.init();
 caseStudy.init();
 swiper.init();
+
+
+
+// added scroll trigger on svg__left
+window.addEventListener("scroll", () =>{
+  if (window.scrollY > 100) {
+    svgleft.classList.add("fixed");
+    console.log("scroll");
+  }
+}
+);
+
+
+
+
