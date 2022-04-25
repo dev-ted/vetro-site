@@ -171,19 +171,26 @@ body {
 /* hero section */
 
 .section__hero {
+         width: 100%;
+         display : grid;
+         place-items: center;
 
-       
-        height: 100%;
+        
+      
 
-        height: 500px;
+        height: 900px;
 
 }
 
 .hero__banner {
-        max-width: 100%;
-        width: 100%;
+       position: relative;
+       top: -30px;
+
+       
+        width:100%;
         height: 100%;
         object-fit: cover;
+        
 }
 
 .hero__content>h1 {
@@ -224,6 +231,8 @@ body {
         display: grid;
         place-items: center;
         gap: 30px;
+
+        height :  100%;
 }
 
 .section__about__logo {
@@ -897,6 +906,7 @@ body {
         width: 100%;
         margin: 0 auto;
         height: fit-content;
+       
     
 }
 .case__study__slider {
