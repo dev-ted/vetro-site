@@ -2,6 +2,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        cursor : url(../assets/logos/cursor.png), auto;
 
 }
 a{
@@ -238,7 +239,7 @@ body {
 .section__about__logo {
         max-width: 100%;
 
-        height: 150px;
+        height: 200px;
         object-fit: contain;
 }
 
@@ -253,7 +254,7 @@ body {
 }
 
 .heading__content>span {
-        font-size: 3rem;
+        font-size: 8rem;
 
         font-weight: 700;
         letter-spacing: 2px;
@@ -275,7 +276,7 @@ body {
 }
 
 .heading__content>h2 {
-        font-size: 4rem;
+        font-size: 7rem;
         padding: 20px 0;
         font-weight: 700;
         padding: 10px 0;
@@ -308,6 +309,7 @@ body {
 .cards__container {
         display: grid;
         place-items: center;
+        height: 900px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         gap: 30px;
@@ -406,7 +408,7 @@ body {
 
 .section__clients {
         width: 100%;
-        height: 500px;
+        height: 900px;
 
 }
 
@@ -520,6 +522,10 @@ body {
 .client__company {
         color: var(--blue);
         font-size: 1.6rem;
+}
+.case__study__slider{
+        height: 900px;
+        margin-bottom: 100px;
 }
 
 
@@ -829,7 +835,7 @@ body {
 
         max-width: 1250px;
         width: 100%;
-        margin: 0 auto;
+        margin: 190px auto;
 
         height: auto;
         padding: 10px 0;
@@ -1123,8 +1129,9 @@ width: 100%;
 }
 .section__blogs {
         width: 100%;
+        margin: 200px auto;
        
-        height: 100%;
+        height: 600px;
         display: grid;
         gap: 20px;
 
