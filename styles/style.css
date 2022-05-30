@@ -523,8 +523,9 @@ body {
 }
 
 .client__statement {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         width: 100%;
+        line-height: 25px;
         font-weight: 400;
 }
 
@@ -560,7 +561,7 @@ body {
 
 .close__qoutes {
         right: -15px;
-        top: 180px;
+        top: 290px;
         height: 100%;
 
 
