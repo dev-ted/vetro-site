@@ -990,6 +990,7 @@ swiper-pagination-bullets >  span{
         display: flex;
         flex-direction: column;
         gap: 30px;
+        justify-content: center;
 
         color: white;
         transform: rotateY(180deg);
@@ -1020,6 +1021,7 @@ swiper-pagination-bullets >  span{
         font-weight: 400;
         width: 100%;
         line-height: 20px;
+        text-align: center;
 }
 
 .headline {
