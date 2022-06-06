@@ -496,10 +496,10 @@ body {
 }
 
 .client__image__holder {
-        width: 175px;
-        height: 175px;
+       width: 200px;
+    height: 180px;
         border-radius: 50%;
-        background: var(--gray);
+        /* background: var(--gray); */
         position: inherit;
         top: -37px;
         left: -25px;
